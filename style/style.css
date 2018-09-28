@@ -1,0 +1,77 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#Puissance4{
+    height: 500px;
+    width: 500px;
+    border: solid 1px black;
+    transform: rotate(90deg);
+    margin: auto;
+    margin-top: 5%;
+}
+table{
+    background-color: rgb(88, 0, 255);    
+}
+tr{
+    border: solid 1px black;
+}
+td{
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: inset -5px 1px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 50%;
+    margin: 5px;
+}
+#back{  
+    float: right;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: green;
+    border: none;
+    border-bottom: solid 5px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 40px;
+}
+
+#back:active{  
+    border-bottom: solid 2px rgba(0,0,0,0.5);
+}
+
+.win{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.winners{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    z-index: 1000;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    padding-top: 10%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+#table{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}

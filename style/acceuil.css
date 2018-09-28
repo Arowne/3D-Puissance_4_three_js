@@ -1,0 +1,94 @@
+.body{
+	background-image: url('../img/background.png');
+	background-size: cover;
+	overflow-x: hidden;
+}
+.title{
+	font-family: 'Chewy', sans-serif;
+	width: 500px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 32%;
+	text-align: center;
+	padding-top: 2%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: white;
+}
+.title>h3{
+	font-size: 60px;
+	margin-top: 25px;
+	transform: rotate(20deg);
+}
+
+.nuage{
+	position: absolute;
+	margin-left: -750px;
+}
+.img-p4-container{
+	text-align: center;
+}
+.img-p4{
+	margin-top: 5%; 
+	margin-bottom: 5%; 
+	height: 40%;
+	width: 40%;
+}
+
+.btn-container{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.btn-play{
+	border: solid 2px green;
+	width: 50%;
+	font-weight: bold;
+	margin: auto;
+}
+
+.connexion-container{
+	font-family: 'Chewy', sans-serif;
+	width: 500px;
+	height: 500px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 32%;
+	text-align: center;
+	padding-top: 2%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: white;
+	padding: 50px;
+	color: black;
+}
+.connexion-container>h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cnx-input{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.account-container{
+	font-family: 'Chewy', sans-serif;
+	width: 500px;
+	height: 500px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 32%;
+	text-align: center;
+	padding-top: 2%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: white;
+	padding: 50px;
+	color: black;
+}

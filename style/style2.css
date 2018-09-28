@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#Puissance4{
+    transform: rotate(90deg);
+}
+tr{
+    border: solid 1px black;
+}
+td{
+    border: solid 1px black;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px 1px 2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    margin-bottom: -15px;
+    z-index: -100;
+}
+#back2{
+  background-color: transparent;
+  border: none;
+}
+#back{
+    float: right;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+}
+#back:focus{
+  outline:none;
+}
+
+.div{
+  height: 63px;
+  width: 63px;
+  margin-bottom: -5px;
+  margin-left: 2px;
+  border-radius: 50%;
+  z-index: -50;
+}
+
+.g{
+    background-color: green;
+    animation: slideDown 0.4s 1;
+}
+.y{
+  background-color: yellow;
+  animation: slideDown 0.4s 1;
+}
+.r{
+  background-color:red;
+  animation: slideDown 0.4s 1;
+}
+.b{
+  background-color: blue;
+  animation: slideDown 0.4s 1;
+}
+@keyframes slideDown {
+      0%{margin-left: -150px;}
+      33%{margin-left: 0px;}
+      66%{margin-left: -20px;}
+      100%{margin-left: -0px;}
+}
+#table{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
